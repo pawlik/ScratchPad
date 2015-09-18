@@ -1,0 +1,18 @@
+{
+  "name": "pawlik/scratchpad",
+  "description": "random stuff",
+  "minimum-stability": "dev",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Grzegorz Pawlik",
+      "email": "grzegorzpawlik@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "4.8.7"
+  },
+  "autoload": {
+    "psr-4": {"Scratchpad\\": "src/Scratchpad", "Tests\\": "tests"}
+  }
+}
